@@ -84,7 +84,7 @@ nav button{
 /* speaker section  */
 .speakers{
     width: 1320px;
-    height: 1550px;
+    height: 1550px; 
     background-color: rgb(2, 94, 122);
 }
 .intro{
@@ -244,4 +244,53 @@ nav button{
 }
 .item4 .info h3{
     color: #0d1b2a;
+}
+/* subcription card section --------------------------- */
+.subcription{
+     width:1550px;
+    height: 720px; 
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subcription h2 strong{
+    width: 1320px;
+    height: 100px;
+    /* background-color: red; */
+    font-size: 45px;
+    color: #0d1b2a;
+
+}
+.subcription h6{
+    /* background-color: aqua; */
+    font-size: 15px;
+    color: #64686d;
+}
+.subcription .subcription-card{
+    width:1160px;
+    height: 444px;
+    background-color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'card1 card2 card3';
+}
+.card1{
+    grid-area: card1;
+    background-color: #575757;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card2{
+    grid-area: card2;
+    background-color:goldenrod;
+}
+.card3{
+    grid-area: card3;
+    background-color: hotpink;
 }
