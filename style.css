@@ -5,20 +5,26 @@
     font-family: sans-serif;
 }
 nav{
-    /* width: 100%; */
     width: 100%;
     height: 18vh;
-
-    /* max-width: 1320px;
-    height: 130px; */
-    /* background-color: #000000;  */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-nav img{
+nav .nav-logo{
     height: 44px;
     width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+nav .nav-logo img{
+    height: 40px;
+    width: 40px;    
+}
+nav .nav-logo-txt h6{
+    font-size: 22px;
 }
 nav ul {
     display: flex;
@@ -32,7 +38,7 @@ nav ul li a{
     text-decoration: none;
     color: #575757;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 nav button{
     height: 56px;
@@ -47,9 +53,9 @@ nav button{
 /* hero section */
 .hero{
     width: 100%;
-    height: 786px;
+    height: 700px;
     background-color: rgb(0, 0, 0);
-     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./imgs/banner.jpg');  
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./imgs/webdev.jpg');  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -86,19 +92,13 @@ nav button{
 }
 /* speaker section  */
 .speakers{
-    /* height: 100vh;
-    width: 100vh; */
      width: 1320px;
     height: 1150px;  
-      /* background-color: rgb(2, 94, 122);   */
      margin: 0px auto;
 }
 .intro{
-    /* width: 1440px;
-    height: 1290px; */
     width: 100%;
     height: 50vh;
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -107,7 +107,6 @@ nav button{
 .person{
     width: 900px;
     height: 65px;
-    /* background-color: aqua; */
 }
 .person h1{
     font-size: 56px;
@@ -116,11 +115,8 @@ nav button{
     text-align: center;
 }
 .grid-container{
-    /* margin:0 auto; */
     width: 1330px;
     height: 1000px;
-    /* background-color: chartreuse; */
-    /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "item1 item2"
@@ -145,7 +141,6 @@ nav button{
     border-radius: 10px 10px 0px 0px;
 }
 .item1 .info{
-    /* background-color: red; */
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -159,8 +154,6 @@ nav button{
 .item1 .info h3{
     color: #0d1b2a;
 }
-
-/* 2222222222222222222222222222222222 */
 .item2{
     grid-area:item2;
      background-color: #e5e7eb; 
@@ -177,7 +170,6 @@ nav button{
     border-radius: 10px 10px 0px 0px;
 }
 .item2 .info{
-    /* background-color: red; */
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -191,7 +183,6 @@ nav button{
 .item2 .info h3{
     color: #0d1b2a;
 }
-/* 333333333333333333333333333333 */
 .item3{
     grid-area:item3 ;
     background-color: #e5e7eb; 
@@ -222,7 +213,6 @@ nav button{
 .item3 .info h3{
     color: #0d1b2a;
 }
-/* 444444444444444444444 */
 .item4{
     grid-area:item4 ;
      background-color: #e5e7eb; 
@@ -239,7 +229,6 @@ nav button{
     border-radius: 10px 10px 0px 0px;
 }
 .item4 .info{
-    /* background-color: red; */
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -255,11 +244,8 @@ nav button{
 }
 /* subcription card section --------------------------- */
 .subcription{
-     /* width: 1550px;
-    height: 720px; */
      height: 100vh; 
     width:100%; 
-    /* background-color: chocolate; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,25 +254,21 @@ nav button{
 .subcription h2 strong{
     width: 1320px;
     height: 100px;
-    /* background-color: red; */
     font-size: 45px;
     color: #0d1b2a;
 
 }
 .subcription h6{
-    /* background-color: aqua; */
     font-size: 15px;
     color: #64686d;
 }
 .subcription .subcription-card{
     width:1160px;
     height: 444px;
-    /* background-color: darkgoldenrod; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'card1 card2 card3';
     gap:20px;
-    /* border: 2px solid rgb(0, 0, 0); */
 }
 .card1{
      border: 2px solid rgb(0, 0, 0);
@@ -423,8 +405,6 @@ nav button{
 
 /* footer section */
 footer{
-    /* height: 145px;
-    width: 1550px; */
     width: 100%;
     height: 20vh;
     background-color: rgb(0, 0, 0);
@@ -440,7 +420,6 @@ footer .social{
 }
 footer .social  .socio-icon{
     display: flex;
-    /* background-color: rebeccapurple; */
     gap: 10px;
     align-items: center;
     font-size: 30px;
@@ -454,10 +433,16 @@ footer hr{
 }
 footer .copyright{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     color: white;
 }
 footer .term{
     display: flex;
     gap: 15px;
+}
+footer .term p{
+    font-size: 12px;
+    color: #64686d;
 }
