@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 nav{
+    background-color: #07071B;
     width: 100%;
     height: 18vh;
     display: flex;
@@ -36,7 +37,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #575757;
+    color: #CBD5E1;
     font-weight: 400;
     font-size: 18px;
 }
@@ -46,7 +47,7 @@ nav button{
     font-weight: bold;
     font-size: 16px;
     color: #ffff;
-    background-color: #1d4ed8;
+    background-color: #8B5CF6;
     border: none;
     border-radius: 9px;
 }
@@ -54,8 +55,8 @@ nav button{
 .hero{
     width: 100%;
     height: 700px;
-    background-color: rgb(0, 0, 0);
-     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./imgs/webdev.jpg');  
+    background-color: rgb(0, 0, 0); 
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 2), transparent), url('./imgs/webspeech3.jpg');  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,14 +68,13 @@ nav button{
 .hero h1{
     font-size: 80px;
     text-align: center;
-    color:#ffff;
+    color:#F8FAFC;
 }
 .hero p{
     text-align: center;
     font-weight: 400;
     font-size: 22px;
-    color: #ffff;
-    /* background-color: yellow; */
+    color: #CBD5E1;
     width: 830px;
     height: 110px;
     line-height: 24px;
@@ -86,7 +86,7 @@ nav button{
     font-weight: bold;
     font-size: 16px;
     color: #ffff;
-    background-color: #1d4ed8;
+    background-color: #8B5CF6;
     border: none;
     border-radius: 9px;
 }
@@ -95,6 +95,7 @@ nav button{
      width: 1320px;
     height: 1150px;  
      margin: 0px auto;
+     background-color: #1E293B;
 }
 .intro{
     width: 100%;
@@ -109,6 +110,7 @@ nav button{
     height: 65px;
 }
 .person h1{
+    color: white;
     font-size: 56px;
     font-size: bold;
     line-height: 64px;
@@ -271,9 +273,9 @@ nav button{
     gap:20px;
 }
 .card1{
-     border: 2px solid rgb(0, 0, 0);
+     border: 1px solid #334155;;
     grid-area: card1;
-    background-color: #ffffff;
+    background-color: #1E293B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,20 +285,30 @@ nav button{
 .card1 h4{
     text-align: left;
     font-size: 25px;
+    color: white;
 }
 .card1 hr{
     width: 80%;
 }
+.card1 h2{
+    color: white;
+}
 .card1 ul li{
     line-height: 28px;
+    color: white;
+}
+.card1 h6{
+    color: white;
 }
 .card1 button{
+    background:#38BDF8;
+     color:#07071B;
     height: 56px;
     width: 192px;
     font-weight: bold;
     font-size: 16px;
-    color: #ffff;
-    background-color: #1d4ed8;
+    /* color: #ffff; */
+    /* background-color: #1d4ed8; */
     border: none;
     border-radius: 9px;
     margin-top: 20px;
@@ -304,9 +316,9 @@ nav button{
 
 /* ----------------------------------- */
 .card2{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid #334155;;
     grid-area: card2;   
-    background-color: #2a005a;
+     background:#8B5CF6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,12 +345,14 @@ nav button{
     color: white;
 }
 .card2 button{
+    background:#38BDF8;
+    color:#07071B;
     height: 56px;
     width: 192px;
     font-weight: bold;
     font-size: 16px;
-    color: #ffff;
-    background-color: #1d4ed8;
+    /* color: #ffff; */
+    /* background-color: #1d4ed8; */
     border: none;
     border-radius: 9px;
     margin-top: 20px;
@@ -346,9 +360,9 @@ nav button{
 
 /* ------------------------------------ */
 .card3{
-     border: 2px solid rgb(0, 0, 0);
+     border: 1px solid #334155;;
     grid-area: card3;   
-    background-color: #ffffff;
+    background-color: #1E293B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,20 +372,30 @@ nav button{
 .card3 h4{
     text-align: left;
     font-size: 25px;
+    color: white;
 }
 .card3 hr{
     width: 80%;
 }
+.card3 h2{
+    color: white;
+}
 .card3 ul li{
     line-height: 28px;
+    color: white;
+}
+.card3 h6{
+    color: white;
 }
 .card3 button{
+    background:#38BDF8;
+    color:#07071B;
     height: 56px;
     width: 192px;
     font-weight: bold;
     font-size: 16px;
-    color: #ffff;
-    background-color: #1d4ed8;
+    /* color: #ffff; */
+    /* background-color: #1d4ed8; */
     border: none;
     border-radius: 9px;
     margin-top: 20px;
@@ -523,32 +547,6 @@ nav button{
 
     border-top:2px dashed rgba(255,255,255,.3);
 }
- /* .importance{ 
-    height: 70vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.importance h3{
-    font-size: 45px;
-}
-.importance h3 span{
-    color: rgb(250, 0, 0);
-}
-.importance p{
-    font-size: 20px;
-    text-align: center;
-    line-height: 35px;
-}
-.importance .code-icon{
-    display: flex;
-    gap: 4.5vw;
-    font-size: 40px;
-}*/
-
 /* footer section */
 footer{
     width: 100%;
