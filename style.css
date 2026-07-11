@@ -377,7 +377,153 @@ nav button{
     margin-top: 20px;
 }
 /* Ai challenge part  */
- .importance{
+/*==========================
+    DEVCONF HACKATHON
+==========================*/
+
+.hackathon{
+    width:100%;
+    min-height:70vh;
+    background:#07071b;
+    color:#fff;
+
+    padding:60px 8%;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:50px;
+}
+
+/* Top */
+
+.hackathon-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+/* Left */
+
+.hackathon-left{
+    flex:1;
+    min-width:320px;
+}
+
+.hackathon-tag{
+    display:inline-block;
+    padding:8px 20px;
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:30px;
+
+    color:#8b5cf6;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.hackathon-left h2{
+    font-size:72px;
+    line-height:80px;
+    margin-bottom:20px;
+}
+
+.hackathon-left h2 span{
+    color:#8b5cf6;
+}
+
+.hackathon-left p{
+    max-width:600px;
+    color:#c8c8c8;
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+.hackathon-left button{
+
+    width:200px;
+    height:55px;
+
+    border:none;
+    border-radius:10px;
+
+    background:#7c3aed;
+    color:white;
+
+    font-size:17px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+/* Right */
+
+.hackathon-right{
+
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hackathon-right i{
+
+    font-size:180px;
+
+    background:linear-gradient(45deg,#47d7ff,#a855f7);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* Timeline */
+
+.hackathon-timeline{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+}
+
+.timeline-item{
+
+    text-align:center;
+
+    min-width:130px;
+}
+
+.timeline-item i{
+
+    font-size:40px;
+
+    color:#49b8ff;
+
+    margin-bottom:12px;
+}
+
+.timeline-item h4{
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+.timeline-line{
+
+    width:80px;
+
+    border-top:2px dashed rgba(255,255,255,.3);
+}
+ /* .importance{ 
     height: 70vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -401,7 +547,7 @@ nav button{
     display: flex;
     gap: 4.5vw;
     font-size: 40px;
-}
+}*/
 
 /* footer section */
 footer{
