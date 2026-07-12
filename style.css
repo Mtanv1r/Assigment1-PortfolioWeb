@@ -44,6 +44,11 @@ nav ul li a{
     color: #CBD5E1;
     font-weight: 400;
     font-size: 18px;
+    transition: 0.2s;
+}
+/* adding hover  */
+nav ul li a:hover{
+    color: #986cff;
 }
 nav button{
     height: 56px;
@@ -137,8 +142,9 @@ nav button{
 }
 /* mustafa sir */
 .item1{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     grid-area:item1 ;
-     background-color: #e5e7eb; 
+     background: #1fd8f8;
     width: 644px;
     height: 460px;
     display: flex;
@@ -166,8 +172,9 @@ nav button{
     color: #0d1b2a;
 }
 .item2{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     grid-area:item2;
-     background-color: #e5e7eb; 
+    background: #1fd8f8;
     width: 644px;
     height: 460px;
      display: flex;
@@ -195,8 +202,9 @@ nav button{
     color: #0d1b2a;
 }
 .item3{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     grid-area:item3 ;
-    background-color: #e5e7eb; 
+    background: #1fd8f8; 
     width: 644px;
     height: 460px;
      display: flex;
@@ -225,8 +233,9 @@ nav button{
     color: #0d1b2a;
 }
 .item4{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     grid-area:item4 ;
-     background-color: #e5e7eb; 
+    background: #1fd8f8;
     width: 644px;
     height: 460px;
      display: flex;
@@ -248,7 +257,7 @@ nav button{
 }
 .item4 .info h5{
     font-size: 15px;
-    color: #575757;
+    color: #636161;
 }
 .item4 .info h3{
     color: #0d1b2a;
@@ -283,6 +292,7 @@ nav button{
     gap:20px;
 }
 .card1{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
      border: 1px solid #334155;;
     grid-area: card1;
     background-color: #1E293B;
@@ -326,6 +336,7 @@ nav button{
 
 /* ----------------------------------- */
 .card2{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     border: 1px solid #334155;;
     grid-area: card2;   
      background:#8B5CF6;
@@ -338,21 +349,22 @@ nav button{
 .card2 h4{
     text-align: left;
     font-size: 25px;
-    color: white;
+    /* color: white; */
+    color: black;
 }
 .card2 h2{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .card2 hr{
     width: 80%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .card2 h6{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .card2 ul li{
     line-height: 28px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .card2 button{
     background:#38BDF8;
@@ -361,8 +373,6 @@ nav button{
     width: 192px;
     font-weight: bold;
     font-size: 16px;
-    /* color: #ffff; */
-    /* background-color: #1d4ed8; */
     border: none;
     border-radius: 9px;
     margin-top: 20px;
@@ -370,6 +380,7 @@ nav button{
 
 /* ------------------------------------ */
 .card3{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
      border: 1px solid #334155;;
     grid-area: card3;   
     background-color: #1E293B;
@@ -571,6 +582,7 @@ footer .social{
     justify-content: space-around;
     /* gap:150px; */
     align-items: center;
+    gap:25vw;
 }
 footer .social  .socio-icon{
     display: flex;
@@ -600,4 +612,9 @@ footer .term{
 footer .term p{
     font-size: 12px;
     color: #64686d;
+}
+/* button all hover */
+#btn-hv:hover{
+    background:#3cf2ff;
+    color: black;
 }
